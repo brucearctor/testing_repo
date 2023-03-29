@@ -8,3 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: brucearctor/ruff@v0.0.009
+        with:
+          options: --select B
